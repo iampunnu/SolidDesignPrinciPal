@@ -19,7 +19,7 @@ class Child extends Parent {
 public class Main {
     public static void main(String[] args) {
         A a=new B();
-        System.out.println(a.age+" "+a.name+" "+a.campanyName);
+        System.out.println(a.age+" "+a.name+" "+a.campanyName+" "+ a.college);
         a.publicShow();
     }
 }

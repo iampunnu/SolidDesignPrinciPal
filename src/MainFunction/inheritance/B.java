@@ -4,6 +4,8 @@ public class B extends A{
     public String name="Ankur";
     public String campanyName="finvolve";
     public int age=12;
+    public static String college="def";
+
     B(String name,String campanyName,int age){
         this.name=name;
         this.campanyName=campanyName;

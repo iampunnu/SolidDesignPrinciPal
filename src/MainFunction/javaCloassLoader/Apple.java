@@ -1,10 +1,10 @@
 package MainFunction.javaCloassLoader;
 
 public class Apple {
-    public static String shape;
+    public final static String shape;
     public static String color ;
     public double pricePerkg;
-    public String name;
+    public final String name ="pk";
    static  {
         System.out.println("inside static block");
         shape="circle";

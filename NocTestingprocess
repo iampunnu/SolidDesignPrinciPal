@@ -1,0 +1,52 @@
+Make Repo Surrender
+then Sold or release 
+then colse loan by normal closure and forclosure 
+       in case of normal closure client level noc charge will not apply.
+       in case of forclosure noc process will not create .
+       
+       
+colse loan by normal closure and forclosure 
+       in case of normal closure client level charge will apply. if client will pay complete charge amount noc process will get created.
+       if client wants client level charge waiver waive charge completely.noc process will get  created automatically.
+      
+       in case of forclosure noc process will get  created client level charge did not get apply.
+
+       
+
+noc process created from customer experience .
+       customer will raise request there will be two option one with waiver another without waiver .
+       A . case without waiver customer will gat mail and whatsapp to pay outstanding charge once client will pay complete charge noc process will get  created automatically.   
+        B.if maker will choose waiver option .there will be two ways .
+       
+         1. complete charge outstanding waiver in this case checker will approve complete waiver.on complete waiver approvel noc process will get  created automatically.
+         2. partial waiver checker will approve partial waiver .client will get mail and whatsapp for remaining outstanding payment . once client will pay remaining outstanding noc process will get  created automatically. 
+         
+         
+
+noc process created from suraksha
+         Suraksha will raise reqeust .noc process will get  created automatically .
+         
+         
+         
+FileUploadToServer repayment()  in  normal closure   we apply client charge and send notification to client.
+
+
+
+reapayClientCharge()  if client pay client charge    createProcess(loanId,"","");             pdfGenerateService.generateNocService(map1);
+
+WaiveClientChargeHandler  we are creating process on client chaarge waiver
+
+ApplyClientChargeIfLoanIsClosed surksha 
+
+ApplyClientChargeIfLoanIsClosedOldWithChecker  customer experience
+
+ForeClosureProcess
+
+
+
+    
+         
+         
+         
+         
+         
