@@ -1,5 +1,7 @@
 package MainFunction.designpattern;
 
+import java.util.Objects;
+
 public class Animal {
     public String name;
     public  int len;
@@ -76,6 +78,8 @@ public class Animal {
             return this;
         }
 
+
+
         public computerBulider setVil(String vil) {
             this.vil = vil;
 
@@ -84,5 +88,17 @@ public class Animal {
         public Animal build(){
             return new Animal(this);
         }
+    }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        computerBulider that = (computerBulider) o;
+        return  Objects.equals(len, that.len) ;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(len);
     }
 }

@@ -1,6 +1,10 @@
 package MainFunction.designpattern;
 
 public class Builderpattern {
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 
     public int age;
     public String name;
